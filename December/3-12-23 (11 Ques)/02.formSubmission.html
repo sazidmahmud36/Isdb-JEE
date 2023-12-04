@@ -59,20 +59,20 @@
                 showGender = "Female";
             }
 
-            // if(checkboxhtml.checked){
-            //     showCheckbox += 'HTML \n';
-            // }
-            // if(checkboxcss.checked){
-            //     showCheckbox += 'Css \n';
-            // }
-            // if(checkboxjs.checked){
-            //     showCheckbox += 'Javascript \n';
-            // }
-            for(var i = 0; i < skills.length; i++){
-                if(skills[i].checked){
-                    showSkills += skills[i].value + "\n" ;
-                }
+            if(checkboxhtml.checked){
+                showCheckbox += 'HTML \n';
             }
+            if(checkboxcss.checked){
+                showCheckbox += 'Css \n';
+            }
+            if(checkboxjs.checked){
+                showCheckbox += 'Javascript \n';
+            }
+            // for(var i = 0; i < skills.length; i++){
+            //     if(skills[i].checked){
+            //         showSkills += skills[i].value + "\n" ;
+            //     }
+            // }
 
 
             w = window.open("","");
