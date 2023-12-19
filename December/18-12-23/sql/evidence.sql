@@ -46,4 +46,5 @@ WHERE department_id = 13;
 -- AVARAGE salary
 SELECT AVG(salary), department_id
 FROM student
-WHERE salary > 10000;
+WHERE salary > 10000
+GROUP BY department_id;
