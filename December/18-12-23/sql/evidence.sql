@@ -4,7 +4,7 @@ CREATE TABLE student(
 	id NUMBER(6) PRIMARY KEY,
 	name VARCHAR2(25) NOT NULL,
 	hire_date DATE NOT NULL,
-	salary Number(8,2) NOT NULL
+	salary NUMBER(8,2) NOT NULL
 );
 
 -- Create column
