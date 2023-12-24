@@ -43,6 +43,29 @@ WHERE id = 104;
 Select * FROM student 
 WHERE department_id = 13;
 
+DELETE FROM student
+where id=105;
+
+alter table student
+drop (salary);
+
+alter table student
+modify (email VARCHAR2(40));
+
+drop view xyz;
+
+create view xyz
+as
+select name,email
+from student;
+
+drop synonym asd;
+
+create synonym asd
+for student;
+
+commit;
+
 -- AVARAGE salary
 SELECT AVG(salary), department_id
 FROM student
