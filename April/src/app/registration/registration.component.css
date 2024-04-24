@@ -1,0 +1,12 @@
+p{
+    color:aliceblue;
+}
+p a{
+
+    float: right;
+}
+
+.logo img{
+    height: 150px;
+    width: 150px;
+}

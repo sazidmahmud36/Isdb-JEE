@@ -1,0 +1,20 @@
+<!-- partial:index.partial.html -->
+<div class="container">
+	<div id="login-box">
+		<div class="logo">
+			<!-- <img src="https://media.licdn.com/dms/image/D5603AQHG51xvWd_s0A/profile-displayphoto-shrink_800_800/0/1688589050780?e=2147483647&v=beta&t=8fB3LLHIprP8UXaeKChP8kAnnX3vpTlVT4IzOfK2aZM" class="img img-responsive img-circle center-block"/> -->
+			<h1 class="logo-caption"><span class="tweak">L</span>ogin</h1>
+		</div><!-- /.logo -->
+		<div class="controls">
+			<form>
+				<input type="text" name="user_id" placeholder="User Id" class="form-control" [(ngModel)]="user_id"/>
+				<input type="text" name="user_password" placeholder="Password" class="form-control" [(ngModel)]="user_password"/>
+				<button type="button" class="btn btn-default btn-block btn-custom" (click)="login()">Login</button>
+			</form>
+			<br>
+			<p>Don't have an account? <a routerLink="/registration">Register Here!</a></p>
+		</div>
+	</div>
+</div>
+<div id="particles-js"></div>
+<!-- partial -->
