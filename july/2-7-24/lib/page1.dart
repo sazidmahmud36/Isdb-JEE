@@ -39,7 +39,7 @@ class _MyHomePage1State extends State<MyHomePage1> {
         child: const Icon(Icons.add),
         tooltip: "Go Home",
         onPressed: (){
-          Navigator.push(context, MaterialPageRoute(builder: (context) => Page1()));
+          Navigator.push(context, MaterialPageRoute(builder: (context) => MyApp()));
         },
       ),
     );
